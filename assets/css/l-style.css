@@ -84,8 +84,22 @@ section:not(.hero) {
 .mt-50 {
     margin-top: 50px;
 }
+.justify-between {
+    justify-content: space-between;
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+h3 {
+    font-size: calc(1.2rem + .6vw);
+}
 @media (max-width: 768px) {
     .services {
         flex-wrap: wrap;
+    }
+    .mobile-flex {
+        flex-direction: column-reverse;
     }
 }
