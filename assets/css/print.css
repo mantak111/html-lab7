@@ -1,0 +1,29 @@
+body, .heading {
+    font-family: serif;
+}
+
+.services {
+    display: block !important;
+}
+
+.service-box {
+    margin-top: 20px;
+}
+iframe, video, audio {
+    display: none;
+}
+.hero {
+    width: auto;
+    height: auto;
+}
+.hero .image {
+    background: none;
+}
+.hero-box {
+    position: inherit;
+    transform: none;
+    text-align: left;
+    color: #000;
+    left: 0;
+    top: 0;
+}
